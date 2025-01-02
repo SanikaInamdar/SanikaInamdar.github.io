@@ -3,18 +3,18 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Malhar
+first_name: Sanika
 middle_name:
 last_name: Inamdar
-email: malhar.inamdar.097@gmail.com
-description: machine learning, robotics, research.
+email: sanika.inamdar.2002@gmail.com
+description: Cloud DevOps, Backend Engineering, .
 
 keywords: 
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://malharinamdar.github.io # the base hostname & protocol for your site
+url: https://SanikaInamdar.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
@@ -63,11 +63,11 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: malharinamdar
+github_username: SanikaInamdar
 gitlab_username: 
 twitter_username: 
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-linkedin_username: malhar-inamdar
+linkedin_username: sanikainamdar2002
 telegram_username: # your Telegram user name
 scholar_userid:  # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
@@ -122,16 +122,16 @@ pagination:
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out
 # the information below.
-giscus:
-  repo: "malharinamdar/malharinamdar.github.io"    # GitHub repository where Giscus is enabled
-  repo_id: "R_kgDONP54sg"                          # Your Giscus repository ID
-  category: "comments"                             # Category name in discussions
-  category_id: "DIC_kwDONP54ss4CkTkr"              # Category ID for the discussion category
-  mapping: "pathname"                              # Mapping method (pathname is generally ideal for unique URLs)
-  theme: "preferred_color_scheme"                  # Theme (can be "light", "dark", or "preferred_color_scheme" for auto)
-  reactions_enabled: "1"                           # Show reactions on comments (1 to enable, 0 to disable)
-  emit_metadata: "0"                               # Set to "0" if you don’t want to include metadata
-  lang: "en"                                       # Language code (set to your preferred language)
+#giscus:
+ # repo: "malharinamdar/malharinamdar.github.io"    # GitHub repository where Giscus is enabled
+  #repo_id: "R_kgDONP54sg"                          # Your Giscus repository ID
+  #category: "comments"                             # Category name in discussions
+  #category_id: "DIC_kwDONP54ss4CkTkr"              # Category ID for the discussion category
+  #mapping: "pathname"                              # Mapping method (pathname is generally ideal for unique URLs)
+  #theme: "preferred_color_scheme"                  # Theme (can be "light", "dark", or "preferred_color_scheme" for auto)
+  #reactions_enabled: "1"                           # Show reactions on comments (1 to enable, 0 to disable)
+  #emit_metadata: "0"                               # Set to "0" if you don’t want to include metadata
+  #lang: "en"                                       # Language code (set to your preferred language)
 
 
 # Disqus comments (DEPRECATED)
