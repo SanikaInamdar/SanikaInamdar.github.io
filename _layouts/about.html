@@ -8,7 +8,11 @@ layout: default
           <h1 class="post-title">
            {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
           </h1>
+          {% if page.name_native -%}
+          <p class="desc">{{ page.name_native }} · <i>{{ page.name_iast }}</i></p>
+          {%- else -%}
           <p class="desc"><i>{{ page.description }}</i></p>
+          {%- endif %}
         </header>
 
         <br>
@@ -25,10 +29,11 @@ layout: default
                 {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
               {% endif %}
 
-              {% include figure.html 
-              path=profile_image_path 
-              class=profile_image_class
-              alt=page.profile.image -%}
+              <img
+                src="{{ profile_image_path | relative_url }}"
+                class="{{ profile_image_class }}"
+                alt="{{ page.profile.image }}"
+                loading="eager" />
             {% endif -%}
             {%- if page.profile.address %}
             <div class="address">

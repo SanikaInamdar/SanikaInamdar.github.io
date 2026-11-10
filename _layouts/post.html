@@ -43,14 +43,14 @@ layout: default
     {{ content }}
   </article>
 
-  {%- if page.giscus_comments -%}
+  {%- if page.giscus_comments and site.giscus.repo -%}
   <!-- Giscus Comments Section -->
   <section id="comments">
       <script src="https://giscus.app/client.js"
-              data-repo="malharinamdar/malharinamdar.github.io"
-              data-repo-id="R_kgDONP54sg"
-              data-category="comments"
-              data-category-id="DIC_kwDONP54ss4CkTkr"
+              data-repo="{{ site.giscus.repo }}"
+              data-repo-id="{{ site.giscus.repo_id }}"
+              data-category="{{ site.giscus.category }}"
+              data-category-id="{{ site.giscus.category_id }}"
               data-mapping="pathname"
               data-strict="0"
               data-reactions-enabled="1"

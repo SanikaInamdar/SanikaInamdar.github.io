@@ -496,7 +496,7 @@ footer.sticky-bottom {
       .preview {
         width: 100%;
         min-width: 80px;
-        max-width: 200px;
+        max-width: 420px;
       }
       .abbr {
         height: 2rem;
@@ -522,6 +522,7 @@ footer.sticky-bottom {
         font-weight: bolder;
       }
       .author {
+        font-size: 0.9rem;
         a {
           border-bottom: 1px dashed var(--global-theme-color);
           &:hover {
@@ -542,6 +543,9 @@ footer.sticky-bottom {
               border-bottom: 1px dashed var(--global-text-color);
           }
         }
+      }
+      .periodical {
+        font-size: 0.9rem;
       }
       .links {
         a.btn {
